@@ -4,7 +4,7 @@ import { useSearchParams, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button"; 
 import { CircleX, ArrowLeft, Loader2 } from "lucide-react";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent} from "@/components/ui/sheet";
 import airportsData from "../data/airports.json"; 
 
 interface FlightResult {
